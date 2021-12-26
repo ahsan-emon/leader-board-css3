@@ -31,6 +31,48 @@ hr {
   margin-top: 30px;
   margin-bottom: 27px;
 }
+/* ------------------
+ header style here 
+--------------------- */
+header {
+  background-color: #562eff;
+}
+nav {
+  width: 910px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  height: 94px;
+  align-items: center;
+}
+.logo-area {
+  display: flex;
+  align-items: center;
+}
+.logo-area img {
+  width: 40px;
+  height: 50px;
+}
+.logo-area span {
+  margin-left: 16px;
+  font-size: 24px;
+  color: #fff;
+}
+.menu-area ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.menu-area ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  margin-left: 36px;
+}
+.menu-area ul li a img {
+  width: 51px;
+  height: 51px;
+}
 /* ---------------
 top players style 
 ------------------ */
