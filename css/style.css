@@ -58,6 +58,9 @@ nav {
   font-size: 24px;
   color: #fff;
 }
+.menu-area .fa-bars {
+  display: none;
+}
 .menu-area ul {
   list-style: none;
   display: flex;
@@ -192,6 +195,30 @@ top players style
  Media Queries
  ---------------- */
 @media only screen and (max-width: 688px) {
+  header {
+    width: 100%;
+  }
+  nav {
+    width: 90%;
+    height: auto;
+  }
+  .logo-area img {
+    width: 7%;
+    height: auto;
+  }
+  .menu-area .menu {
+    display: none;
+  }
+  .menu-area .fa-bars {
+    display: block;
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .fa-bars:hover .menu {
+    display: block;
+  }
   .container {
     width: 100%;
   }
